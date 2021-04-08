@@ -1,0 +1,58 @@
+.nav_title{
+    margin: auto;
+    font-size: 30px;
+}
+
+.hyper_text{
+    text-decoration: none;
+    color: white;
+}
+
+
+#videoBack {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.btn-hidden{
+    visibility: hidden;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 515px;
+}
+
+.card_fix3{  
+    max-width: 90rem;
+    margin: auto;
+    width: 80%;
+    padding: 0px;
+    top: 30px;
+    left: 0px;
+    background-color: rgba(245, 245, 245, 1);
+    opacity: .7;
+}
+
+.card_fix2{  
+    max-width: 60rem;
+    margin: auto;
+    width: 40%;
+    padding: 0px;
+    top: 80px;
+    left: 0px;
+    background-color: rgba(245, 245, 245, 1);
+    opacity: .7;
+}
+
+.button-fix{
+    position: relative;
+    top: 20px;
+}
