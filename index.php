@@ -35,16 +35,13 @@ if(isset($_GET["manejoId"])){
         $handler = 'HandlerSerialization';
     }else if($_GET["manejoId"] == 3){
         $handler = 'HandlerCsv';
-    }
-    
-}
-else{
+    } 
+}else{
     $handler = 'HandlerJson';
 }
 
 $layout = new LayoutTest(true);
 $manager = new FileManager(true, 'transacciones', $handler);
-$utilities = new Utilities();
 
 $transactions = $manager->GetList();
 
