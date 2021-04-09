@@ -12,10 +12,10 @@ class HandlerJson extends MFileHandler implements PFileHandler{
         $this->CreateDirectory($this->directory);
         $path = $this->directory . "/". $this->filename . ".json";
 
-        $serializeData = json_encode($value);
+        $jsonData = json_encode($value);
 
         $file = fopen($path,"w+");
-        fwrite($file,$serializeData);
+        fwrite($file,$jsonData);
         fclose($file);
     }
 
